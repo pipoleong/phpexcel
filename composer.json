@@ -1,0 +1,22 @@
+{
+  "name": "pipoleong/phpexcel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Pipoleong\\Phpexcel\\": "src"
+    },
+    "files": [
+      "src/excel.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Pipo leong",
+      "email": "leongpipo2000@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "phpoffice/phpspreadsheet": "*"
+  }
+}
